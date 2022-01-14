@@ -1,0 +1,21 @@
+{
+  "name": "install-pkg-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "bin": {
+    "pkg": "./bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antfu/install-pkg": "^0.1.0",
+    "commander": "^8.3.0",
+    "ora": "5.0.0",
+    "vite": "^2.7.12"
+  }
+}
